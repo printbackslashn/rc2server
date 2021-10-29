@@ -7,4 +7,4 @@
     - [] /root/*
     - [] SSH keys
     - [] log files
-- [] 
+- [] Obfuscation, nothing curretly I want more features before I work on that 
