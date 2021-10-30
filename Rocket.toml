@@ -1,8 +1,8 @@
 [default]
 address = "0.0.0.0"
 
-[global.tls]
-certs = "certificate.pem"
-key = "key.pem"
-[development]
-tls = { certs = "certificate.pem", key = "key.pem" }
+#[global.tls]
+#certs = "certificate.pem"
+#key = "key.pem"
+#[development]
+#tls = { certs = "certificate.pem", key = "key.pem" }
