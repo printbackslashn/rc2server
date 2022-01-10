@@ -3,7 +3,7 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
   name = "rust-env";
   nativeBuildInputs = [
-    rustc cargo
+    rustc cargo cargo-watch
 
     # Example Build-time Additional Dependencies
     pkg-config

